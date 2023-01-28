@@ -8,7 +8,7 @@ import {
   Route
 } from "react-router-dom";
 export default class App extends Component {
-  apiKey = '98109c5d509c42a19e4a4c6409df05cb'
+  apiKey = process.env.REACT_APP_NEWS_API
   render() {
     return (
       <>
