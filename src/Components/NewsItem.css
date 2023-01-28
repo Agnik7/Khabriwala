@@ -1,0 +1,26 @@
+.story{
+    text-align: right;
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+}
+a{
+    text-decoration: none;
+    
+}
+.card{
+    border-radius: 20px;
+}
+img{
+    max-height: 10rem;
+}
+.btn{
+    border-radius: 20px;
+    background-color: hsl(39, 100%, 50%);
+    color: black;
+    border: 1px solid orange;
+}
+/* .btn :hover{
+     background-color: hsl(39, 100%, 40%); 
+    border-radius: 20px;
+} */
