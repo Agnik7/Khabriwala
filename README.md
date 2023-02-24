@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# README for Khabriwala
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##Introduction
 
-## Available Scripts
+Khabriwala is a news library app, developed using React. It is completely responsive, therefore available for all screen sizes.
 
-In the project directory, you can run:
+## Built With
 
-### `npm start`
+- HTML5
+- CSS3
+- Bootstrap
+- create-react-app
+- JavaScript using React Library
+- React Router DOM
+- React Infinite Scroll
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## My Method
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- I used **React** for the functionality of the page.
+- **Bootstrap**, a CSS framework, was used for some basic styling of the page. 
+- All the required data has been fetched from [NewsApi](https://newsapi.org/). 
+- The `react-router-dom` has been used for Routing between the different tabs present in the Navbar.
+- The **Infinite Scroll** has been imported to achieve infinite scrolling in the app.
 
-### `npm test`
+## What I learnt
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- How to create a React application using `create-react-app`
+- Various applicatoins of  the `react-router-dom`
+- How to incorporate `infinite scrolling`
+- How **components** and **props** work in React
+- How to fetch data using API
+- How to use `async` and `await` in JS.
 
-### `npm run build`
+##Limitations
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Since Khabriwala is using the *developer package* of NewsAPI, it cannot be published as a site. The reason behind it is that the developer package allows **Cross-Origin Resource Sharing(CORS)** only for the **localhost**. For more information, check out [Pricing](https://newsapi.org/pricing)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##Acknowledgements
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- A huge shoutout to [CodeWithHarry](https://www.youtube.com/@CodeWithHarry), the YouTube Channel that has been guiding me in the right path and from where I learnt the basics of React in the simplest way possible. 
+- A huge shoutout to [Thapa Technical](https://www.youtube.com/@ThapaTechnical), the YouTube Channel from where I learnt how to use the `react-router-dom v6`.
+- A huge shoutout to [Kevin Powell](https://www.youtube.com/@KevinPowell), the YouTube Channel from where I learnt how to customise the browser's scrollbar.
