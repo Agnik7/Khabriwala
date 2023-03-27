@@ -34,7 +34,7 @@ Khabriwala is a news library app, developed using React. It is completely respon
 
 Since Khabriwala is using the *developer package* of NewsAPI, it cannot be published as a site. The reason behind it is that the developer package allows **Cross-Origin Resource Sharing(CORS)** only for the **localhost**. For more information, check out [Pricing](https://newsapi.org/pricing)
 
-##Acknowledgements
+## Acknowledgements
 
 - A huge shoutout to [CodeWithHarry](https://www.youtube.com/@CodeWithHarry), the YouTube Channel that has been guiding me in the right path and from where I learnt the basics of React in the simplest way possible. 
 - A huge shoutout to [Thapa Technical](https://www.youtube.com/@ThapaTechnical), the YouTube Channel from where I learnt how to use the `react-router-dom v6`.
